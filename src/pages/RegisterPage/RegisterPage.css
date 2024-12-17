@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+html, body, #root, .container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141622;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    width: 350px;
+    max-width: 90%;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+}
+
+.form-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: #4060ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #1a40ff;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px;
+    font-size: 14px;
+}
+
+.remember-forgot a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.register-link p {
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
