@@ -17,7 +17,7 @@ SafeThisSpace — это передовая платформа для автом
 1. **Клонируйте репозиторий:**
 
     ```bash
-    git clone https://github.com/your-repo/SafeThisSpace.git
+    git clone https://github.com/Lemon-Corporation/SafeThisSpace.git
     cd SafeThisSpace
     ```
 ...
